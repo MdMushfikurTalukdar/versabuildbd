@@ -323,44 +323,7 @@ const Home = () => {
         </Container>
       </Box>
 
-      {/* Call to Action */}
-      <Box sx={{ 
-        background: `linear-gradient(to right, ${theme.palette.primary.dark}, ${theme.palette.secondary.dark})`, 
-        color: 'white', 
-        py: 10 
-      }}>
-        <Container>
-          <Grid container spacing={4} alignItems="center">
-            <Grid item xs={12} md={8}>
-              <Typography variant="h3" fontWeight="bold" gutterBottom>
-                Ready to Start Your Project?
-              </Typography>
-              <Typography variant="h6" sx={{ opacity: 0.9 }}>
-                Contact us today for a free consultation and quote. Let's build something amazing together.
-              </Typography>
-            </Grid>
-            <Grid item xs={12} md={4} textAlign={isMobile ? 'center' : 'right'}>
-              <Button
-                variant="contained"
-                color="secondary"
-                size="large"
-                component={Link}
-                to="/contact"
-                endIcon={<EastIcon />}
-                sx={{ 
-                  px: 4, 
-                  py: 1.5,
-                  borderRadius: 2,
-                  fontSize: '1.1rem',
-                  boxShadow: `0 8px 16px ${alpha(theme.palette.common.black, 0.3)}`,
-                }}
-              >
-                Contact Us Now
-              </Button>
-            </Grid>
-          </Grid>
-        </Container>
-      </Box>
+      
     </Box>
   );
 };
