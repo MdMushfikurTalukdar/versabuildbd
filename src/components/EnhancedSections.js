@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
   Box,
   Container,
@@ -13,10 +13,8 @@ import {
   Slide,
   Grow,
   Card,
-  CardContent,
   Avatar,
-  Chip,
-  IconButton
+  Chip
 } from '@mui/material';
 import {
   CheckCircle as CheckCircleIcon,

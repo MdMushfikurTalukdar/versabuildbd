@@ -1,15 +1,13 @@
 // pages/Services.js
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Container,
   Box,
   Typography,
   Grid,
   Card,
-  CardContent,
   alpha,
   useTheme,
-  useMediaQuery,
   Fade,
   Button,
   Dialog,
@@ -44,8 +42,6 @@ const gradient = keyframes`
 
 const Services = () => {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  const isTablet = useMediaQuery(theme.breakpoints.down('md'));
   const [isVisible, setIsVisible] = useState(false);
   const [selectedService, setSelectedService] = useState(null);
   const [openDialog, setOpenDialog] = useState(false);

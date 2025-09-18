@@ -1,5 +1,5 @@
 // pages/Contact.js
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import {
   Container,
   Box,
@@ -39,9 +39,7 @@ import {
   Twitter,
   Instagram,
   LinkedIn,
-  Close,
   Person,
-  Subject,
   Message,
   CheckCircle,
   WhatsApp,
@@ -49,13 +47,6 @@ import {
   YouTube
 } from '@mui/icons-material';
 import { keyframes } from '@emotion/react';
-
-// Animation for gradient background
-const gradient = keyframes`
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-`;
 
 // Animation for floating elements
 const float = keyframes`
@@ -74,7 +65,6 @@ const pulse = keyframes`
 const Contact = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  const isTablet = useMediaQuery(theme.breakpoints.down('md'));
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -176,10 +166,10 @@ const Contact = () => {
     {
       icon: <Phone sx={{ fontSize: 40 }} />,
       title: 'Call Us',
-      details: '+1 (555) 123-4567',
-      description: 'Mon-Fri from 8am to 6pm',
+      details: '+880 1234 567890',
+      description: '',
       color: theme.palette.primary.main,
-      action: 'tel:+15551234567',
+      action: '+880 1234 567890',
       animationDelay: '0s'
     },
     {
@@ -194,17 +184,17 @@ const Contact = () => {
     {
       icon: <LocationOn sx={{ fontSize: 40 }} />,
       title: 'Visit Us',
-      details: '123 Construction Avenue',
-      description: 'Builders City, BC 12345',
+      details: '44, Road: 01, Sector: 3, Jashimuddin Road, Uttara',
+      description: 'Dhaka - 1230, Bangladesh',
       color: theme.palette.success.main,
       action: '#map',
       animationDelay: '0.4s'
     },
     {
       icon: <Schedule sx={{ fontSize: 40 }} />,
-      title: 'Business Hours',
-      details: 'Monday - Friday: 8am - 6pm',
-      description: 'Saturday: 9am - 1pm',
+      title: 'office house',
+      details: 'Sunday-Thursday 9:00 - 6:00',
+      description: '',
       color: theme.palette.warning.main,
       action: null,
       animationDelay: '0.6s'

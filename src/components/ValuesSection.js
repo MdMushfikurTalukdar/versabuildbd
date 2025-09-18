@@ -40,7 +40,6 @@ const float = keyframes`
 const ValuesSection = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  const isTablet = useMediaQuery(theme.breakpoints.down('md'));
   const [isVisible, setIsVisible] = useState(false);
   const [selectedValue, setSelectedValue] = useState(null);
   const [openDialog, setOpenDialog] = useState(false);
@@ -115,12 +114,6 @@ const ValuesSection = () => {
     setOpenDialog(false);
   };
 
-  // Calculate responsive grid values
-  const getGridSize = () => {
-    if (isMobile) return 12;
-    if (isTablet) return 6;
-    return 4;
-  };
 
   return (
     <>

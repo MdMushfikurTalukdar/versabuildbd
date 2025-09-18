@@ -1,5 +1,5 @@
 // pages/Projects.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Container,
   Box,
@@ -20,10 +20,7 @@ import {
   useMediaQuery,
   Fade,
   Zoom,
-  Grow,
-  CardActionArea,
-  AvatarGroup,
-  Avatar,
+  Grow
 } from '@mui/material';
 import {
   Close,
@@ -36,21 +33,6 @@ import {
   Build,
   ArrowForward,
 } from '@mui/icons-material';
-import { keyframes } from '@emotion/react';
-
-// Animation for floating elements
-const float = keyframes`
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0px); }
-`;
-
-// Animation for gradient background
-const gradient = keyframes`
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-`;
 
 const Projects = () => {
   const theme = useTheme();

@@ -48,7 +48,7 @@ const LeadershipTeam = () => {
     {
       name: 'Mehrav Hosssain Joarder',
       role: 'Chief Architect',
-      experience: '10 years in construction',
+      experience: '15 years in construction',
       bio: "Mehrav Hossain Joarder is an accomplished architect with over a decade of professional experience, specializing in large-scale architectural projects. A Bachelor of Architecture graduate from Khulna University (2011), Mehrav has spent 10 years at Inarch Solution BD, where he has contributed his expertise to various significant architectural and design initiatives. His portfolio includes serving as Project Architect for the Bangladesh Securities and Exchange Commission (BSEC), where he managed the internal layout design for the main building over a two-year period. Mehrav has also made valuable contributions to Bangladesh's infrastructure development through his work on MRT Line 1, where he participated in the land acquisition process, and MRT Line 5, where he was involved in designing the North elevated station.",
       expertise: ["Architectural Design", "Project Management", "Infrastructure Development", "Layout Planning", "Land Acquisition"],
       image: 'https://i.ibb.co.com/xk7Yxbk/Mehrav-Hossain-Joarder.jpg',
@@ -76,7 +76,7 @@ const LeadershipTeam = () => {
   'Innovative, Responsive, and Efficient Engineering Solutions',
   'Team Building & Professional Development'
 ],
-      image: 'https://i.ibb.co.com/BS8k9PS/Shahrish-shuvo.jpg',
+      image: 'https://i.ibb.co.com/YB9NBLrK/Whats-App-Image-2025-09-18-at-00-34-17-5b5c5513.jpg',
       social: {
         linkedin: 'https://www.linkedin.com/in/m-m-khalid-murshed-a51953120/?originalSubdomain=bd',
         twitter: '#',
@@ -117,8 +117,8 @@ const LeadershipTeam = () => {
 
     {
       name: 'Saifur Rahman',
-      role: '',
-      experience: 'Managing Director, Octaon',
+      role: 'cheif operating officer',
+      experience: 'Managing Director',
       bio: 'Saifur Rahman is an accomplished civil engineering professional with over 15 years of experience spanning research, public, and private sector roles. He currently serves as the Managing Director of Octaon, where he leads strategic initiatives and applies his expertise to drive organizational growth and innovation. His earlier career includes serving as a Research Associate at the Centre for Environment and Geographic Information Services (CEGIS), where he contributed to projects focused on environmental sustainability and geographic information systems. Saifur holds a Bachelor of Science in Civil Engineering from Ahsanullah University of Science and Technology, building on a strong academic foundation from Notre Dame College and Government Laboratory High School in Dhaka. Recognized for his leadership, technical acumen, and dedication to engineering excellence, he continues to play a pivotal role in advancing impactful projects in the civil engineering sector.',
       expertise: [
   'Civil Engineering Design & Planning',

@@ -28,8 +28,6 @@ import {
   Construction as ConstructionIcon,
   PhotoLibrary as ProjectsIcon,
   ContactMail as ContactIcon,
-  Phone as PhoneIcon,
-  Email as EmailIcon
 } from '@mui/icons-material';
 
 // Styled components for enhanced design
