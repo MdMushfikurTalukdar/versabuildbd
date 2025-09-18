@@ -660,26 +660,26 @@ const Contact = () => {
                 Visit our office or reach out to us for directions
               </Typography>
               
-              <Box
-                sx={{
-                  borderRadius: 4,
-                  overflow: 'hidden',
-                  boxShadow: `0 20px 40px ${alpha(theme.palette.common.black, 0.15)}`,
-                  border: `1px solid ${alpha(theme.palette.divider, 0.2)}`,
-                  height: isMobile ? 300 : 450,
-                }}
-              >
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.6214610301857!2d-74.00594268459418!3d40.71274927933013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1e1c2c0e1b%3A0x5d0e2e5e5e5e5e5e!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1629999999999!5m2!1sen!2s"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="BuildMaster Construction Location"
-                />
-              </Box>
+<Box
+  sx={{
+    borderRadius: 4,
+    overflow: 'hidden',
+    boxShadow: `0 20px 40px ${alpha(theme.palette.common.black, 0.15)}`,
+    border: `1px solid ${alpha(theme.palette.divider, 0.2)}`,
+    height: isMobile ? 300 : 450,
+  }}
+>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.226193505083!2d90.3924867!3d23.8614463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c50006678e83%3A0x5c13582a0e7d56cc!2sShahrish%20Engineering%20and%20Construction%20Ltd!5e0!3m2!1sen!2sbd!4v1720000000000!5m2!1sen!2sbd"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    title="Shahrish Engineering and Construction Ltd Location"
+  />
+</Box>
             </Box>
           </Fade>
         </Container>
