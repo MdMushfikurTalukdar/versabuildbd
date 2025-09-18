@@ -185,10 +185,10 @@ const Contact = () => {
     {
       icon: <Email sx={{ fontSize: 40 }} />,
       title: 'Email Us',
-      details: 'info@buildmaster.com',
+      details: 'info@versabuild.com',
       description: 'Send us a message anytime',
       color: theme.palette.secondary.main,
-      action: 'mailto:info@buildmaster.com',
+      action: 'mailto:info@versabuild.com',
       animationDelay: '0.2s'
     },
     {

@@ -6,32 +6,21 @@ import {
   Typography,
   Grid,
   Paper,
-  Avatar,
-  Card,
-  CardContent,
   alpha,
   useTheme,
-  useMediaQuery,
   Fade,
   Slide,
   Grow,
   Zoom,
   Chip,
-  Divider,
   IconButton
 } from '@mui/material';
 import {
-  Engineering,
-  Architecture,
-  Construction,
   EmojiEvents,
   Group,
   Schedule,
   Star,
   PlayArrow,
-  LinkedIn,
-  Twitter,
-  Email
 } from '@mui/icons-material';
 import { keyframes } from '@emotion/react';
 import ValuesSection from '../components/ValuesSection';
@@ -53,63 +42,18 @@ const gradient = keyframes`
 
 const About = () => {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     setIsVisible(true);
   }, []);
 
-  const team = [
-    {
-      name: 'John Smith',
-      role: 'Founder & CEO',
-      experience: '30 years in construction',
-      avatar: 'J',
-      bio: 'John founded BuildMaster with a vision to revolutionize the construction industry through innovation and quality.',
-    },
-    {
-      name: 'Sarah Johnson',
-      role: 'Lead Architect',
-      experience: '15 years in architectural design',
-      avatar: 'S',
-      bio: 'Sarah brings creative vision and technical expertise to every project she oversees.',
-    },
-    {
-      name: 'Michael Brown',
-      role: 'Construction Manager',
-      experience: '20 years in project management',
-      avatar: 'M',
-      bio: 'Michael ensures that every project is completed on time, within budget, and to the highest standards.',
-    },
-  ];
 
   const stats = [
     { number: '250+', label: 'Projects Completed', icon: <EmojiEvents /> },
-    { number: '25+', label: 'Years Experience', icon: <Schedule /> },
+    { number: '15+', label: 'Years Experience', icon: <Schedule /> },
     { number: '50+', label: 'Team Members', icon: <Group /> },
     { number: '100%', label: 'Client Satisfaction', icon: <Star /> },
-  ];
-
-  const values = [
-    {
-      title: 'Quality',
-      description: 'We never compromise on quality. From materials to craftsmanship, we ensure every aspect of your project meets the highest standards.',
-      icon: <Engineering sx={{ fontSize: 40 }} />,
-      color: theme.palette.primary.main,
-    },
-    {
-      title: 'Innovation',
-      description: 'We embrace new technologies and methods to deliver efficient, sustainable, and forward-thinking construction solutions.',
-      icon: <Architecture sx={{ fontSize: 40 }} />,
-      color: theme.palette.secondary.main,
-    },
-    {
-      title: 'Integrity',
-      description: 'We believe in transparency, honesty, and doing what\'s right for our clients, our team, and our community.',
-      icon: <Construction sx={{ fontSize: 40 }} />,
-      color: theme.palette.success.main,
-    },
   ];
 
   return (
@@ -175,7 +119,7 @@ const About = () => {
                   fontSize: { xs: '1rem', md: '1.25rem' }
                 }}
               >
-                For over 25 years, BuildMaster Construction has been transforming visions into exceptional spaces that stand the test of time.
+                For over 15 years, BuildMaster Construction has been transforming visions into exceptional spaces that stand the test of time.
               </Typography>
             </Box>
           </Fade>
@@ -258,7 +202,7 @@ const About = () => {
                   }}
                 >
                   <Typography variant="h4" fontWeight="bold">
-                    25+
+                    15+
                   </Typography>
                   <Typography variant="body2">
                     Years of Excellence

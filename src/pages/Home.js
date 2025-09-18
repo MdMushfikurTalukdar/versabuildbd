@@ -17,9 +17,6 @@ import {
 } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import { Link } from 'react-router-dom';
-import ConstructionIcon from '@mui/icons-material/Construction';
-import EngineeringIcon from '@mui/icons-material/Engineering';
-import ArchitectureIcon from '@mui/icons-material/Architecture';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import EastIcon from '@mui/icons-material/East';
@@ -65,7 +62,7 @@ const Home = () => {
   const statsData = {
     projects: 350,
     clients: 240,
-    experience: 25,
+    experience: 15,
   };
 
   // Animate statistics counting up
@@ -121,7 +118,7 @@ const Home = () => {
                 <Box>
                   <Chip 
                     icon={<CheckCircleIcon />} 
-                    label="25 Years of Excellence" 
+                    label="15 Years of Excellence" 
                     sx={{ 
                       bgcolor: alpha(theme.palette.common.white, 0.2), 
                       color: 'white', 
@@ -138,7 +135,7 @@ const Home = () => {
                     Building Dreams with Precision & Quality
                   </Typography>
                   <Typography variant="h6" sx={{ mb: 4, opacity: 0.9 }}>
-                    From concept to completion, we deliver exceptional construction services with over 25 years of expertise in residential and commercial projects.
+                    From concept to completion, we deliver exceptional construction services with over 15 years of expertise in residential and commercial projects.
                   </Typography>
                   <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mt: 4 }}>
                     <Button

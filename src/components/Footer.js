@@ -176,7 +176,7 @@ const Footer = () => {
                     Email Address
                   </Typography>
                   <Typography variant="body2" sx={{ opacity: 0.8 }}>
-                    info@buildmaster.com
+                    info@versabuild.com
                   </Typography>
                 </Box>
               </Box>

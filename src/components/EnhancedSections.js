@@ -64,7 +64,7 @@ const EnhancedSections = () => {
   const statsData = {
     projects: 350,
     clients: 240,
-    experience: 25,
+    experience: 15,
   };
 
   useEffect(() => {
@@ -323,7 +323,7 @@ const EnhancedSections = () => {
                 }}
               >
                 <Typography variant="h4" fontWeight="bold" color="primary.main">
-                  25+
+                  15+
                 </Typography>
                 <Typography variant="body2">
                   Years Experience
@@ -373,7 +373,7 @@ const EnhancedSections = () => {
               </Typography>
               
               <Typography variant="body1" color="text.secondary" paragraph sx={{ mb: 3 }}>
-                With over 25 years of experience in the construction industry, BuildMaster has 
+                With over 15 years of experience in the construction industry, BuildMaster has 
                 established itself as a leader in quality construction and customer satisfaction. 
                 Our team of skilled professionals is dedicated to turning your vision into reality.
               </Typography>

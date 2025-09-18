@@ -46,12 +46,12 @@ const LeadershipTeam = () => {
   
   const teamMembers = [
     {
-      name: 'John Smith',
-      role: 'Founder & CEO',
-      experience: '30 years in construction',
-      bio: 'John founded BuildMaster with a vision to revolutionize the construction industry through innovation and quality. Under his leadership, the company has grown into a regional leader known for exceptional craftsmanship and client satisfaction.',
-      expertise: ['Strategic Planning', 'Business Development', 'Project Financing'],
-      image: 'https://image.winudf.com/v2/image1/bmV0LndsbHBwci5ib3lzX2FuaW1lX3Byb2ZpbGVfcGljdHVyZXNfc2NyZWVuXzBfMTY3MjE3MzQ4Nl8wNDM/screen-0.jpg?fakeurl=1&type=.jpg',
+      name: 'Mehrav Hosssain Joarder',
+      role: 'Chief Architect',
+      experience: '10 years in construction',
+      bio: "Mehrav Hossain Joarder is an accomplished architect with over a decade of professional experience, specializing in large-scale architectural projects. A Bachelor of Architecture graduate from Khulna University (2011), Mehrav has spent 10 years at Inarch Solution BD, where he has contributed his expertise to various significant architectural and design initiatives. His portfolio includes serving as Project Architect for the Bangladesh Securities and Exchange Commission (BSEC), where he managed the internal layout design for the main building over a two-year period. Mehrav has also made valuable contributions to Bangladesh's infrastructure development through his work on MRT Line 1, where he participated in the land acquisition process, and MRT Line 5, where he was involved in designing the North elevated station.",
+      expertise: ["Architectural Design", "Project Management", "Infrastructure Development", "Layout Planning", "Land Acquisition"],
+      image: 'https://i.ibb.co.com/xk7Yxbk/Mehrav-Hossain-Joarder.jpg',
       social: {
         linkedin: '#',
         twitter: '#',
@@ -61,42 +61,51 @@ const LeadershipTeam = () => {
       icon: <BusinessCenter sx={{ fontSize: 24 }} />
     },
     {
-      name: 'Sarah Johnson',
-      role: 'Lead Architect',
-      experience: '15 years in architectural design',
-      bio: 'Sarah brings creative vision and technical expertise to every project she oversees. She holds a Master\'s in Architecture from MIT and has won several design awards for innovative sustainable building solutions.',
-      expertise: ['Sustainable Design', '3D Modeling', 'Space Planning'],
-      image: 'https://i.pinimg.com/736x/a8/3d/aa/a83daa12dcd60a207541fba02a166d57.jpg',
+      name: 'Shahrish Shuvo',
+      role: 'Managing Director',
+      experience: '15 years in Managing Director',
+      bio: 'Shahrish Shuvo is the Founder  of Shahrish Shuvo Engineering P.C. (SSE), which he established in 2015. A licensed Professional Engineer in New York, Connecticut, Maryland, and Pennsylvania, he brings extensive experience in planning, design, construction inspection, and project management. His expertise includes preparing and reviewing project specifications, drawings, and comprehensive reports. Mr. Shuvo\'s academic background includes a Bachelor of Science in Civil Engineering from the Bangladesh University of Engineering and Technology (BUET) and a Master\'s degree in Civil Engineering from the City College of New York. He completed his higher secondary education at Notre Dame College, Dhaka, and his secondary education at Government Laboratory High School, Dhaka. As the leader of SSE, Shahrish is responsible for guiding the company\'s mission, vision, and strategic growth. He is dedicated to fostering a culture of "Engineering Excellence" through better design, and he believes in the core values of being innovative, responsive, and efficient. His leadership is marked by a deep appreciation for his team, recognizing that surrounding himself with knowledgeable, passionate, and driven professionals is key to the firm\'s success and financial stability.',
+      expertise: [
+  'Civil Engineering Planning & Design',
+  'Construction Inspection & Supervision',
+  'Project Management & Coordination',
+  'Structural and Infrastructure Engineering',
+  'Preparation & Review of Specifications, Drawings, and Reports',
+  'Quality Assurance & Compliance',
+  'Leadership & Strategic Growth',
+  'Innovative, Responsive, and Efficient Engineering Solutions',
+  'Team Building & Professional Development'
+],
+      image: 'https://i.ibb.co.com/BS8k9PS/Shahrish-shuvo.jpg',
       social: {
-        linkedin: '#',
+        linkedin: 'https://www.linkedin.com/in/m-m-khalid-murshed-a51953120/?originalSubdomain=bd',
         twitter: '#',
         email: 'sarah@buildmaster.com'
       },
       stats: { projects: 120, clients: 95 },
       icon: <DesignServices sx={{ fontSize: 24 }} />
     },
+
     {
-      name: 'Michael Brown',
-      role: 'Construction Manager',
-      experience: '20 years in project management',
-      bio: 'Michael ensures that every project is completed on time, within budget, and to the highest standards. His meticulous approach to project management has resulted in a 98% on-time completion rate across all projects.',
-      expertise: ['Project Management', 'Quality Control', 'Team Leadership'],
-      image: 'https://thypix.com/wp-content/uploads/2021/10/grey-anime-profile-picture-thypix-114-700x700.jpg',
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        email: 'michael@buildmaster.com'
-      },
-      stats: { projects: 180, clients: 140 },
-      icon: <Engineering sx={{ fontSize: 24 }} />
-    },
-    {
-      name: 'Emily Chen',
-      role: 'Design Director',
-      experience: '12 years in interior design',
-      bio: 'Emily specializes in creating functional and beautiful spaces that reflect clients\' personalities and needs. Her designs have been featured in several prestigious architecture and design publications.',
-      expertise: ['Interior Design', 'Material Selection', 'Color Theory'],
-      image: 'https://finetoshine.com/wp-content/uploads/Anime-Profile-Picture-16.jpg',
+      name: 'M M khalid Murshed',
+      role: 'Project Engineer',
+      experience: '16 years of comprehensive experience in military operations',
+      bio: 'M M Khalid Murshed is a seasoned Project Engineer with over 16 years of distinguished experience in military operations, strategic leadership, and project management. His career spans complex assignments in the Bangladesh Army, United Nations peacekeeping missions, and the private sector, where he has consistently demonstrated expertise in human resources, logistics, administration, and large-scale project execution. As Director of Administration at March Robotics & IT Solution Ltd., he oversees tender processes, stakeholder engagement, and organizational coordination to drive project success. Previously, he served as a Company Commander in the Bangladesh Army, where he led HR and operational functions for 250 personnel, managed budgets, and delivered engineering support for brigade-level operations. His international roles include service as Contingent Operations Officer in South Sudan with the UNMISS and as Base Engineer in Mali under MINUSMA, where he managed deployments, designed camps, implemented security systems, and coordinated with multinational stakeholders. Khalid’s portfolio also includes overseeing infrastructure development projects, such as leading a 15-kilometer embankment construction project, ensuring compliance, quality, and sustainability. Recognized for his ability to thrive in challenging environments, he brings a robust combination of strategic planning, risk management, and engineering acumen. Currently transitioning to the private sector, Khalid is applying his leadership and technical expertise to deliver modern business and technology solutions with a focus on efficiency, resilience, and impact.',
+      expertise: [
+  'Military Operations & Strategic Leadership',
+  'Project & Program Management',
+  'Human Resources & Administration',
+  'Logistics & Supply Chain Management',
+  'Stakeholder Engagement & Coordination',
+  'Combat & Peacekeeping Engineering',
+  'International Operations (UN Missions)',
+  'Security Planning & Risk Management',
+  'Budgeting, Financial Audits & Resource Allocation',
+  'Infrastructure Development & Construction Supervision',
+  'Change Management & Process Improvement',
+  'Team Leadership & Capacity Building'
+],
+      image: 'https://i.ibb.co.com/0VmDp0Ms/M-M-Khalid-Murshed.jpg',
       social: {
         linkedin: '#',
         twitter: '#',
@@ -104,6 +113,32 @@ const LeadershipTeam = () => {
       },
       stats: { projects: 95, clients: 80 },
       icon: <Psychology sx={{ fontSize: 24 }} />
+    },
+
+    {
+      name: 'Saifur Rahman',
+      role: '',
+      experience: 'Managing Director, Octaon',
+      bio: 'Saifur Rahman is an accomplished civil engineering professional with over 15 years of experience spanning research, public, and private sector roles. He currently serves as the Managing Director of Octaon, where he leads strategic initiatives and applies his expertise to drive organizational growth and innovation. His earlier career includes serving as a Research Associate at the Centre for Environment and Geographic Information Services (CEGIS), where he contributed to projects focused on environmental sustainability and geographic information systems. Saifur holds a Bachelor of Science in Civil Engineering from Ahsanullah University of Science and Technology, building on a strong academic foundation from Notre Dame College and Government Laboratory High School in Dhaka. Recognized for his leadership, technical acumen, and dedication to engineering excellence, he continues to play a pivotal role in advancing impactful projects in the civil engineering sector.',
+      expertise: [
+  'Civil Engineering Design & Planning',
+  'Strategic Leadership & Management',
+  'Infrastructure Development',
+  'Environmental & Geographic Information Systems (GIS)',
+  'Research & Data Analysis',
+  'Public and Private Sector Project Management',
+  'Sustainable Engineering Solutions',
+  'Team Leadership & Organizational Growth'
+]
+,
+      image: 'https://i.ibb.co.com/hR7CghG3/Saifur-Rahman.jpg',
+      social: {
+        linkedin: '#',
+        twitter: '#',
+        email: 'michael@buildmaster.com'
+      },
+      stats: { projects: 180, clients: 140 },
+      icon: <Engineering sx={{ fontSize: 24 }} />
     }
   ];
 
@@ -401,7 +436,7 @@ const LeadershipTeam = () => {
                   alt={selectedMember.name}
                   sx={{
                     width: '100%',
-                    height: 300,
+                    height: '100%',
                     objectFit: 'cover',
                   }}
                 />
