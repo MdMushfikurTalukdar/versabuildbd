@@ -55,7 +55,7 @@ const LeadershipTeam = () => {
       social: {
         linkedin: '#',
         twitter: '#',
-        email: 'john@buildmaster.com'
+        email: 'john@versabuild.com'
       },
       stats: { projects: 250, clients: 180 },
       icon: <BusinessCenter sx={{ fontSize: 24 }} />
@@ -80,7 +80,7 @@ const LeadershipTeam = () => {
       social: {
         linkedin: 'https://www.linkedin.com/in/m-m-khalid-murshed-a51953120/?originalSubdomain=bd',
         twitter: '#',
-        email: 'sarah@buildmaster.com'
+        email: 'sarah@versabuild.com'
       },
       stats: { projects: 120, clients: 95 },
       icon: <DesignServices sx={{ fontSize: 24 }} />
@@ -109,7 +109,7 @@ const LeadershipTeam = () => {
       social: {
         linkedin: '#',
         twitter: '#',
-        email: 'emily@buildmaster.com'
+        email: 'emily@versabuild.com'
       },
       stats: { projects: 95, clients: 80 },
       icon: <Psychology sx={{ fontSize: 24 }} />
@@ -135,7 +135,7 @@ const LeadershipTeam = () => {
       social: {
         linkedin: '#',
         twitter: '#',
-        email: 'michael@buildmaster.com'
+        email: 'michael@versabuild.com'
       },
       stats: { projects: 180, clients: 140 },
       icon: <Engineering sx={{ fontSize: 24 }} />

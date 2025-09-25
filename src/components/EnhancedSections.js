@@ -296,7 +296,7 @@ const EnhancedSections = () => {
               <Slide direction="right" in={true} timeout={800}>
                 <Box
                   component="img"
-                  src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                  src="https://i.ibb.co.com/8DhrjF6T/building2.jpg"
                   alt="Construction team"
                   sx={{
                     width: '100%',
@@ -367,11 +367,11 @@ const EnhancedSections = () => {
               />
               
               <Typography variant="h3" fontWeight="bold" gutterBottom>
-                Building Excellence Since 1998
+                Building Excellence Since 2024
               </Typography>
               
               <Typography variant="body1" color="text.secondary" paragraph sx={{ mb: 3 }}>
-                With over 15 years of experience in the construction industry, BuildMaster has 
+                With over 15 years of experience in the construction industry, VersaBuild has 
                 established itself as a leader in quality construction and customer satisfaction. 
                 Our team of skilled professionals is dedicated to turning your vision into reality.
               </Typography>

@@ -119,7 +119,7 @@ const About = () => {
                   fontSize: { xs: '1rem', md: '1.25rem' }
                 }}
               >
-                For over 15 years, BuildMaster Construction has been transforming visions into exceptional spaces that stand the test of time.
+                For over 15 years, VersaBuild Construction has been transforming visions into exceptional spaces that stand the test of time.
               </Typography>
             </Box>
           </Fade>
@@ -154,7 +154,7 @@ const About = () => {
                   Our Story
                 </Typography>
                 <Typography variant="body1" paragraph sx={{ mt: 3, fontSize: '1.1rem', lineHeight: 1.7 }}>
-                  BuildMaster Construction was founded in 1995 with a simple mission: to deliver 
+                  VersaBuild Construction was founded in 1995 with a simple mission: to deliver 
                   exceptional construction services with uncompromising quality and integrity. What 
                   started as a small local contractor has grown into a respected full-service 
                   construction company serving clients across the region.

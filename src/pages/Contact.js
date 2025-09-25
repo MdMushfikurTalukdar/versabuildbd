@@ -192,7 +192,7 @@ const Contact = () => {
     },
     {
       icon: <Schedule sx={{ fontSize: 40 }} />,
-      title: 'office house',
+      title: 'office hour',
       details: 'Sunday-Thursday 9:00 - 6:00',
       description: '',
       color: theme.palette.warning.main,

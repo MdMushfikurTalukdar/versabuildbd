@@ -42,19 +42,19 @@ const Home = () => {
     {
       name: 'John Davidson',
       role: 'Homeowner',
-      content: 'BuildMaster transformed our outdated home into a modern living space. Their attention to detail and professionalism exceeded our expectations.',
+      content: 'VersaBuild transformed our outdated home into a modern living space. Their attention to detail and professionalism exceeded our expectations.',
       avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
     },
     {
       name: 'Sarah Johnson',
       role: 'Business Owner',
-      content: 'We hired BuildMaster for our office expansion project. They delivered on time and within budget while maintaining the highest quality standards.',
+      content: 'We hired VersaBuild for our office expansion project. They delivered on time and within budget while maintaining the highest quality standards.',
       avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
     },
     {
       name: 'Michael Chen',
       role: 'Property Developer',
-      content: 'I\'ve worked with many construction firms, but BuildMaster stands out for their innovative solutions and commitment to excellence.',
+      content: 'I\'ve worked with many construction firms, but VersaBuild stands out for their innovative solutions and commitment to excellence.',
       avatar: 'https://randomuser.me/api/portraits/men/67.jpg',
     },
   ];
@@ -191,7 +191,7 @@ const Home = () => {
                   >
                     <Box
                       component="img"
-                      src="https://images.unsplash.com/photo-1628744404730-5e143358539b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                      src="https://i.ibb.co.com/dJVPXnpV/building1.jpg"
                       alt="Construction"
                       sx={{
                         width: '100%',

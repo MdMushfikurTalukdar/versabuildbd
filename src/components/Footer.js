@@ -87,7 +87,7 @@ const Footer = () => {
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
               <Construction sx={{ fontSize: 40, color: theme.palette.primary.main, mr: 2 }} />
               <Typography variant="h5" fontWeight="bold">
-                BuildMaster Construction
+                VersaBuild Construction
               </Typography>
             </Box>
             <Typography variant="body2" sx={{ mb: 3, opacity: 0.8, lineHeight: 1.7 }}>
@@ -279,7 +279,7 @@ const Footer = () => {
         }}>
           {/* Copyright */}
           <Typography variant="body2" sx={{ opacity: 0.7 }}>
-            © {new Date().getFullYear()} BuildMaster Construction. All rights reserved.
+            © {new Date().getFullYear()} VersaBuild Construction. All rights reserved.
           </Typography>
           
           {/* Social Media */}
