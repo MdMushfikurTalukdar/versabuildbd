@@ -163,7 +163,7 @@ const Footer = () => {
                     Phone Number
                   </Typography>
                   <Typography variant="body2" sx={{ opacity: 0.8 }}>
-                    +880 1234 567890
+                    +8801673820951
                   </Typography>
                 </Box>
               </Box>
@@ -175,7 +175,7 @@ const Footer = () => {
                     Email Address
                   </Typography>
                   <Typography variant="body2" sx={{ opacity: 0.8 }}>
-                    info@versabuild.com
+                    info@versabuildbd.com
                   </Typography>
                 </Box>
               </Box>
@@ -187,9 +187,7 @@ const Footer = () => {
                     Working Hours
                   </Typography>
                   <Typography variant="body2" sx={{ opacity: 0.8 }}>
-                    Mon - Fri: 9AM - 6PM<br />
-                    Saturday: 10AM - 4PM<br />
-                    Sunday: Closed
+                    Sunday-Saturday: 9AM-6PM<br />
                   </Typography>
                 </Box>
               </Box>

@@ -166,19 +166,19 @@ const Contact = () => {
     {
       icon: <Phone sx={{ fontSize: 40 }} />,
       title: 'Call Us',
-      details: '+880 1234 567890',
+      details: '+8801673820951',
       description: '',
       color: theme.palette.primary.main,
-      action: '+880 1234 567890',
+      action: '+8801673820951',
       animationDelay: '0s'
     },
     {
       icon: <Email sx={{ fontSize: 40 }} />,
       title: 'Email Us',
-      details: 'info@versabuild.com',
+      details: 'info@versabuildbd.com',
       description: 'Send us a message anytime',
       color: theme.palette.secondary.main,
-      action: 'mailto:info@versabuild.com',
+      action: 'mailto:info@versabuildbd.com',
       animationDelay: '0.2s'
     },
     {
