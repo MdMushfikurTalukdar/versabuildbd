@@ -46,24 +46,9 @@ const LeadershipTeam = () => {
   
   const teamMembers = [
     {
-      name: 'Mehrav Hosssain Joarder',
-      role: 'Chief Architect',
-      experience: '15 years in construction',
-      bio: "Mehrav Hossain Joarder is an accomplished architect with over a decade of professional experience, specializing in large-scale architectural projects. A Bachelor of Architecture graduate from Khulna University (2011), Mehrav has spent 10 years at Inarch Solution BD, where he has contributed his expertise to various significant architectural and design initiatives. His portfolio includes serving as Project Architect for the Bangladesh Securities and Exchange Commission (BSEC), where he managed the internal layout design for the main building over a two-year period. Mehrav has also made valuable contributions to Bangladesh's infrastructure development through his work on MRT Line 1, where he participated in the land acquisition process, and MRT Line 5, where he was involved in designing the North elevated station.",
-      expertise: ["Architectural Design", "Project Management", "Infrastructure Development", "Layout Planning", "Land Acquisition"],
-      image: 'https://i.ibb.co.com/xk7Yxbk/Mehrav-Hossain-Joarder.jpg',
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        email: 'john@versabuild.com'
-      },
-      stats: { projects: 250, clients: 180 },
-      icon: <BusinessCenter sx={{ fontSize: 24 }} />
-    },
-    {
       name: 'Shahrish Shuvo',
       role: 'Managing Director',
-      experience: '15 years in Managing Director',
+      experience: '15 years in Construction and civil Engineering',
       bio: 'Shahrish Shuvo is the Founder  of Shahrish Shuvo Engineering P.C. (SSE), which he established in 2015. A licensed Professional Engineer in New York, Connecticut, Maryland, and Pennsylvania, he brings extensive experience in planning, design, construction inspection, and project management. His expertise includes preparing and reviewing project specifications, drawings, and comprehensive reports. Mr. Shuvo\'s academic background includes a Bachelor of Science in Civil Engineering from the Bangladesh University of Engineering and Technology (BUET) and a Master\'s degree in Civil Engineering from the City College of New York. He completed his higher secondary education at Notre Dame College, Dhaka, and his secondary education at Government Laboratory High School, Dhaka. As the leader of SSE, Shahrish is responsible for guiding the company\'s mission, vision, and strategic growth. He is dedicated to fostering a culture of "Engineering Excellence" through better design, and he believes in the core values of being innovative, responsive, and efficient. His leadership is marked by a deep appreciation for his team, recognizing that surrounding himself with knowledgeable, passionate, and driven professionals is key to the firm\'s success and financial stability.',
       expertise: [
   'Civil Engineering Planning & Design',
@@ -85,11 +70,25 @@ const LeadershipTeam = () => {
       stats: { projects: 120, clients: 95 },
       icon: <DesignServices sx={{ fontSize: 24 }} />
     },
-
+{
+      name: 'Mehrav Hosssain Joarder',
+      role: 'Chief Architect',
+      experience: '15 years in Architect Field',
+      bio: "Mehrav Hossain Joarder is an accomplished architect with over a decade of professional experience, specializing in large-scale architectural projects. A Bachelor of Architecture graduate from Khulna University (2011), Mehrav has spent 10 years at Inarch Solution BD, where he has contributed his expertise to various significant architectural and design initiatives. His portfolio includes serving as Project Architect for the Bangladesh Securities and Exchange Commission (BSEC), where he managed the internal layout design for the main building over a two-year period. Mehrav has also made valuable contributions to Bangladesh's infrastructure development through his work on MRT Line 1, where he participated in the land acquisition process, and MRT Line 5, where he was involved in designing the North elevated station.",
+      expertise: ["Architectural Design", "Project Management", "Infrastructure Development", "Layout Planning", "Land Acquisition"],
+      image: 'https://i.ibb.co.com/xk7Yxbk/Mehrav-Hossain-Joarder.jpg',
+      social: {
+        linkedin: '#',
+        twitter: '#',
+        email: 'john@versabuild.com'
+      },
+      stats: { projects: 250, clients: 180 },
+      icon: <BusinessCenter sx={{ fontSize: 24 }} />
+    },
     {
       name: 'M M khalid Murshed',
       role: 'Project Engineer',
-      experience: '16 years of comprehensive experience in military operations',
+      experience: '15 years of comprehensive experience in military operations',
       bio: 'M M Khalid Murshed is a seasoned Project Engineer with over 16 years of distinguished experience in military operations, strategic leadership, and project management. His career spans complex assignments in the Bangladesh Army, United Nations peacekeeping missions, and the private sector, where he has consistently demonstrated expertise in human resources, logistics, administration, and large-scale project execution. As Director of Administration at March Robotics & IT Solution Ltd., he oversees tender processes, stakeholder engagement, and organizational coordination to drive project success. Previously, he served as a Company Commander in the Bangladesh Army, where he led HR and operational functions for 250 personnel, managed budgets, and delivered engineering support for brigade-level operations. His international roles include service as Contingent Operations Officer in South Sudan with the UNMISS and as Base Engineer in Mali under MINUSMA, where he managed deployments, designed camps, implemented security systems, and coordinated with multinational stakeholders. Khalid’s portfolio also includes overseeing infrastructure development projects, such as leading a 15-kilometer embankment construction project, ensuring compliance, quality, and sustainability. Recognized for his ability to thrive in challenging environments, he brings a robust combination of strategic planning, risk management, and engineering acumen. Currently transitioning to the private sector, Khalid is applying his leadership and technical expertise to deliver modern business and technology solutions with a focus on efficiency, resilience, and impact.',
       expertise: [
   'Military Operations & Strategic Leadership',
@@ -118,7 +117,7 @@ const LeadershipTeam = () => {
     {
       name: 'Saifur Rahman',
       role: 'cheif operating officer',
-      experience: 'Managing Director',
+      experience: '15 years in Construction',
       bio: 'Saifur Rahman is an accomplished civil engineering professional with over 15 years of experience spanning research, public, and private sector roles. He currently serves as the Managing Director of Octaon, where he leads strategic initiatives and applies his expertise to drive organizational growth and innovation. His earlier career includes serving as a Research Associate at the Centre for Environment and Geographic Information Services (CEGIS), where he contributed to projects focused on environmental sustainability and geographic information systems. Saifur holds a Bachelor of Science in Civil Engineering from Ahsanullah University of Science and Technology, building on a strong academic foundation from Notre Dame College and Government Laboratory High School in Dhaka. Recognized for his leadership, technical acumen, and dedication to engineering excellence, he continues to play a pivotal role in advancing impactful projects in the civil engineering sector.',
       expertise: [
   'Civil Engineering Design & Planning',

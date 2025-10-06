@@ -40,22 +40,22 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: 'John Davidson',
+      name: 'Sadman Rafid',
       role: 'Homeowner',
       content: 'VersaBuild transformed our outdated home into a modern living space. Their attention to detail and professionalism exceeded our expectations.',
-      avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
+      avatar: 'https://i.ibb.co.com/23T3cFZW/sadman.jpg',
     },
     {
-      name: 'Sarah Johnson',
+      name: 'Saif Al Siam',
       role: 'Business Owner',
       content: 'We hired VersaBuild for our office expansion project. They delivered on time and within budget while maintaining the highest quality standards.',
-      avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
+      avatar: 'https://i.ibb.co.com/fb9N3db/Saif-Al-Siam.jpg',
     },
     {
-      name: 'Michael Chen',
+      name: 'Jahidul Hasan',
       role: 'Property Developer',
       content: 'I\'ve worked with many construction firms, but VersaBuild stands out for their innovative solutions and commitment to excellence.',
-      avatar: 'https://randomuser.me/api/portraits/men/67.jpg',
+      avatar: 'https://i.ibb.co.com/yBP2YPbF/Jahidul-Hasan.jpg',
     },
   ];
 
