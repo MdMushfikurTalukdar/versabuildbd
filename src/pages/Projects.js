@@ -81,7 +81,7 @@ const Projects = () => {
     {
       title: 'Kitchen Renovation',
       description: 'Complete transformation of a traditional kitchen into a modern culinary space.',
-      image: 'https://images.unsplash.com/photo-1556020685-ae41abfc9365?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80',
+      image: 'https://i.ibb.co.com/ZzNSrLy4/Kitchen-Renovation.jpg',
       category: 'renovation',
       features: ['Custom cabinetry', 'Quartz countertops', 'Smart appliances'],
       year: '2022',
@@ -103,7 +103,7 @@ const Projects = () => {
     {
       title: 'Lakeside Retreat',
       description: 'A luxury vacation home with panoramic views of the lake.',
-      image: 'https://5.imimg.com/data5/SELLER/Default/2021/8/ID/BZ/WQ/111173069/residential-building-designing.jpg',
+      image: 'https://i.ibb.co.com/7JYbF9S5/Lakeside-Retreat.jpg',
       category: 'residential',
       features: ['Floor-to-ceiling windows', 'Outdoor living space', 'Dock access'],
       year: '2021',
@@ -114,7 +114,7 @@ const Projects = () => {
     {
       title: 'Historic Restoration',
       description: 'Careful restoration of a 19th-century building for modern use.',
-      image: 'https://thumbs.dreamstime.com/z/modern-building-23979479.jpg',
+      image: 'https://i.ibb.co.com/tM7J9nJH/Historic-Restoration.jpg',
       category: 'renovation',
       features: ['Period-appropriate materials', 'Structural reinforcement', 'Modern utilities'],
       year: '2019',

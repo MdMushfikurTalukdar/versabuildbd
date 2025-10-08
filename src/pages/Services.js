@@ -97,7 +97,7 @@ const Services = () => {
         'Space optimization',
         'Cost-effective solutions'
       ],
-      image: 'https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+      image: 'https://i.ibb.co.com/8nDQnKWj/Renovation-Remodeling.jpg',
       icon: <HomeRepairService sx={{ fontSize: 30 }} />,
       color: theme.palette.success.main,
       stats: { projects: 200, years: 18 }
@@ -114,7 +114,7 @@ const Services = () => {
         'Budget planning',
         'Material selection guidance'
       ],
-      image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+      image: 'https://i.ibb.co.com/7JLwJcdF/Design-Planning.jpg',
       icon: <DesignServices sx={{ fontSize: 30 }} />,
       color: theme.palette.info.main,
       stats: { projects: 120, years: 10 }
@@ -131,7 +131,7 @@ const Services = () => {
         'Regular progress reports',
         'Risk mitigation'
       ],
-      image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+      image: 'https://i.ibb.co.com/YBq6Hv83/Project-Management.jpg',
       icon: <Schedule sx={{ fontSize: 30 }} />,
       color: theme.palette.warning.main,
       stats: { projects: 180, years: 14 }

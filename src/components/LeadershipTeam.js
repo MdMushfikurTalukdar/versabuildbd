@@ -61,7 +61,8 @@ const LeadershipTeam = () => {
   'Innovative, Responsive, and Efficient Engineering Solutions',
   'Team Building & Professional Development'
 ],
-      image: 'https://i.ibb.co.com/YB9NBLrK/Whats-App-Image-2025-09-18-at-00-34-17-5b5c5513.jpg',
+      image: 'https://i.ibb.co.com/x8zpRQJj/shahrish-shuvo.jpg',
+      //image: 'https://i.ibb.co.com/YB9NBLrK/Whats-App-Image-2025-09-18-at-00-34-17-5b5c5513.jpg',
       social: {
         linkedin: 'https://www.linkedin.com/in/m-m-khalid-murshed-a51953120/?originalSubdomain=bd',
         twitter: '#',
@@ -86,10 +87,10 @@ const LeadershipTeam = () => {
       icon: <BusinessCenter sx={{ fontSize: 24 }} />
     },
     {
-      name: 'M M khalid Murshed',
+      name: 'Major M M Khalid Murshed (Retd)',
       role: 'Project Engineer',
-      experience: '15 years of comprehensive experience in military operations',
-      bio: 'M M Khalid Murshed is a seasoned Project Engineer with over 16 years of distinguished experience in military operations, strategic leadership, and project management. His career spans complex assignments in the Bangladesh Army, United Nations peacekeeping missions, and the private sector, where he has consistently demonstrated expertise in human resources, logistics, administration, and large-scale project execution. As Director of Administration at March Robotics & IT Solution Ltd., he oversees tender processes, stakeholder engagement, and organizational coordination to drive project success. Previously, he served as a Company Commander in the Bangladesh Army, where he led HR and operational functions for 250 personnel, managed budgets, and delivered engineering support for brigade-level operations. His international roles include service as Contingent Operations Officer in South Sudan with the UNMISS and as Base Engineer in Mali under MINUSMA, where he managed deployments, designed camps, implemented security systems, and coordinated with multinational stakeholders. Khalid’s portfolio also includes overseeing infrastructure development projects, such as leading a 15-kilometer embankment construction project, ensuring compliance, quality, and sustainability. Recognized for his ability to thrive in challenging environments, he brings a robust combination of strategic planning, risk management, and engineering acumen. Currently transitioning to the private sector, Khalid is applying his leadership and technical expertise to deliver modern business and technology solutions with a focus on efficiency, resilience, and impact.',
+      experience: '19 years of comprehensive experience in military operations',
+      bio: 'Major M M Khalid Murshed (Retd) is a seasoned Project Engineer with over 19 years of distinguished experience in military operations, strategic leadership, and project management. His career spans complex assignments in the Bangladesh Army, United Nations peacekeeping missions, and the private sector, where he has consistently demonstrated expertise in human resources, logistics, administration, and large-scale project execution. As Director of Administration at March Robotics & IT Solution Ltd., he oversees tender processes, stakeholder engagement, and organizational coordination to drive project success. Previously, he served as a Company Commander in the Bangladesh Army, where he led HR and operational functions for 250 personnel, managed budgets, and delivered engineering support for brigade-level operations. His international roles include service as Contingent Operations Officer in South Sudan with the UNMISS and as Base Engineer in Mali under MINUSMA, where he managed deployments, designed camps, implemented security systems, and coordinated with multinational stakeholders. Khalid’s portfolio also includes overseeing infrastructure development projects, such as leading a 15-kilometer embankment construction project, ensuring compliance, quality, and sustainability. Recognized for his ability to thrive in challenging environments, he brings a robust combination of strategic planning, risk management, and engineering acumen. Currently transitioning to the private sector, Khalid is applying his leadership and technical expertise to deliver modern business and technology solutions with a focus on efficiency, resilience, and impact.',
       expertise: [
   'Military Operations & Strategic Leadership',
   'Project & Program Management',
@@ -115,10 +116,10 @@ const LeadershipTeam = () => {
     },
 
     {
-      name: 'Saifur Rahman',
-      role: 'cheif operating officer',
+      name: 'MD Saifur Rahman',
+      role: 'Chief Operating Officer',
       experience: '15 years in Construction',
-      bio: 'Saifur Rahman is an accomplished civil engineering professional with over 15 years of experience spanning research, public, and private sector roles. He currently serves as the Managing Director of Octaon, where he leads strategic initiatives and applies his expertise to drive organizational growth and innovation. His earlier career includes serving as a Research Associate at the Centre for Environment and Geographic Information Services (CEGIS), where he contributed to projects focused on environmental sustainability and geographic information systems. Saifur holds a Bachelor of Science in Civil Engineering from Ahsanullah University of Science and Technology, building on a strong academic foundation from Notre Dame College and Government Laboratory High School in Dhaka. Recognized for his leadership, technical acumen, and dedication to engineering excellence, he continues to play a pivotal role in advancing impactful projects in the civil engineering sector.',
+      bio: 'MD Saifur Rahman is an accomplished civil engineering professional with over 15 years of experience spanning research, public, and private sector roles. He currently serves as the Managing Director of Octaon, where he leads strategic initiatives and applies his expertise to drive organizational growth and innovation. His earlier career includes serving as a Research Associate at the Centre for Environment and Geographic Information Services (CEGIS), where he contributed to projects focused on environmental sustainability and geographic information systems. Saifur holds a Bachelor of Science in Civil Engineering from Ahsanullah University of Science and Technology, building on a strong academic foundation from Notre Dame College and Government Laboratory High School in Dhaka. Recognized for his leadership, technical acumen, and dedication to engineering excellence, he continues to play a pivotal role in advancing impactful projects in the civil engineering sector.',
       expertise: [
   'Civil Engineering Design & Planning',
   'Strategic Leadership & Management',

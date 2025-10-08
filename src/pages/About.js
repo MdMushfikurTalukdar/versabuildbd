@@ -154,7 +154,7 @@ const About = () => {
                   Our Story
                 </Typography>
                 <Typography variant="body1" paragraph sx={{ mt: 3, fontSize: '1.1rem', lineHeight: 1.7 }}>
-                  VersaBuild Construction was founded in 1995 with a simple mission: to deliver 
+                  VersaBuild Construction was founded in 2024 with a simple mission: to deliver 
                   exceptional construction services with uncompromising quality and integrity. What 
                   started as a small local contractor has grown into a respected full-service 
                   construction company serving clients across the region.
