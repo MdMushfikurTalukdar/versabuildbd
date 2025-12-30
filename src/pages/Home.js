@@ -191,7 +191,7 @@ const Home = () => {
                   >
                     <Box
                       component="img"
-                      src="https://i.ibb.co.com/dJVPXnpV/building1.jpg"
+                      src="https://i.ibb.co.com/QhDSx7W/Whats-App-Image-2025-12-07-at-23-43-04-941feae7.jpg"
                       alt="Construction"
                       sx={{
                         width: '100%',
@@ -235,7 +235,7 @@ const Home = () => {
       <EnhancedSections />
 
       {/* Testimonials Section */}
-      <Box sx={{ bgcolor: 'grey.50', py: 10 }}>
+      {/* <Box sx={{ bgcolor: 'grey.50', py: 10 }}>
         <Container>
           <Box textAlign="center" sx={{ mb: 6 }}>
             <Typography variant="h3" fontWeight="bold" gutterBottom>
@@ -318,7 +318,7 @@ const Home = () => {
             </Box>
           </Box>
         </Container>
-      </Box>
+      </Box> */}
 
       
     </Box>

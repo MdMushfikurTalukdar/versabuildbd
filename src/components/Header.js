@@ -113,7 +113,8 @@ const Header = () => {
   ];
 
   // Convert Google Drive link to direct image URL
-  const googleDriveDirectUrl = "https://drive.google.com/uc?export=view&id=1d617WoG5Zb3SZrSAlEjZ2u_G35A6DnoE";
+  // const googleDriveDirectUrl = "https://drive.google.com/uc?export=view&id=1d617WoG5Zb3SZrSAlEjZ2u_G35A6DnoE";
+  const googleDriveDirectUrl = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXZuMThidHRyMjl6djMzbnhkcGdvOGxlOXp1YjhrY3dzYnp4NGExayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LHZyixOnHwDDy/giphy.gif";
 
   const drawer = (
     <Box
@@ -141,7 +142,8 @@ const Header = () => {
             }}
             alt="VersaBuild BD Logo"
             onError={(e) => {
-              e.target.src = "https://i.ibb.co.com/h1LQb53w/logo-removebg-preview.png";
+              // e.target.src = "https://i.ibb.co.com/h1LQb53w/logo-removebg-preview.png";
+              e.target.src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXZuMThidHRyMjl6djMzbnhkcGdvOGxlOXp1YjhrY3dzYnp4NGExayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LHZyixOnHwDDy/giphy.gif";
             }}
           />
           <LogoText variant="h6">

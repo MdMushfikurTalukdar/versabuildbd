@@ -439,7 +439,7 @@ const EnhancedSections = () => {
                   }}
                 >
                   <Typography variant="h5" fontWeight="bold" color="primary.main">
-                    150+
+                    20+
                   </Typography>
                   <Typography variant="body2">
                     Team Members

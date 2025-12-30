@@ -96,7 +96,7 @@ const Footer = () => {
             </Typography>
             
             {/* Awards/Certifications */}
-            <Paper 
+            {/* <Paper 
               elevation={0} 
               sx={{ 
                 p: 2, 
@@ -124,7 +124,7 @@ const Footer = () => {
                   }}
                 />
               ))}
-            </Box>
+            </Box> */}
           </Grid>
 
           {/* Contact Information */}

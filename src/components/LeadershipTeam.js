@@ -86,34 +86,34 @@ const LeadershipTeam = () => {
       stats: { projects: 250, clients: 180 },
       icon: <BusinessCenter sx={{ fontSize: 24 }} />
     },
-    {
-      name: 'Major M M Khalid Murshed (Retd)',
-      role: 'Project Engineer',
-      experience: '19 years of comprehensive experience in military operations',
-      bio: 'Major M M Khalid Murshed (Retd) is a seasoned Project Engineer with over 19 years of distinguished experience in military operations, strategic leadership, and project management. His career spans complex assignments in the Bangladesh Army, United Nations peacekeeping missions, and the private sector, where he has consistently demonstrated expertise in human resources, logistics, administration, and large-scale project execution. As Director of Administration at March Robotics & IT Solution Ltd., he oversees tender processes, stakeholder engagement, and organizational coordination to drive project success. Previously, he served as a Company Commander in the Bangladesh Army, where he led HR and operational functions for 250 personnel, managed budgets, and delivered engineering support for brigade-level operations. His international roles include service as Contingent Operations Officer in South Sudan with the UNMISS and as Base Engineer in Mali under MINUSMA, where he managed deployments, designed camps, implemented security systems, and coordinated with multinational stakeholders. Khalid’s portfolio also includes overseeing infrastructure development projects, such as leading a 15-kilometer embankment construction project, ensuring compliance, quality, and sustainability. Recognized for his ability to thrive in challenging environments, he brings a robust combination of strategic planning, risk management, and engineering acumen. Currently transitioning to the private sector, Khalid is applying his leadership and technical expertise to deliver modern business and technology solutions with a focus on efficiency, resilience, and impact.',
-      expertise: [
-  'Military Operations & Strategic Leadership',
-  'Project & Program Management',
-  'Human Resources & Administration',
-  'Logistics & Supply Chain Management',
-  'Stakeholder Engagement & Coordination',
-  'Combat & Peacekeeping Engineering',
-  'International Operations (UN Missions)',
-  'Security Planning & Risk Management',
-  'Budgeting, Financial Audits & Resource Allocation',
-  'Infrastructure Development & Construction Supervision',
-  'Change Management & Process Improvement',
-  'Team Leadership & Capacity Building'
-],
-      image: 'https://i.ibb.co.com/0VmDp0Ms/M-M-Khalid-Murshed.jpg',
-      social: {
-        linkedin: '#',
-        twitter: '#',
-        email: 'emily@versabuild.com'
-      },
-      stats: { projects: 95, clients: 80 },
-      icon: <Psychology sx={{ fontSize: 24 }} />
-    },
+//     {
+//       name: 'Major M M Khalid Murshed (Retd)',
+//       role: 'Project Engineer',
+//       experience: '19 years of comprehensive experience in military operations',
+//       bio: 'Major M M Khalid Murshed (Retd) is a seasoned Project Engineer with over 19 years of distinguished experience in military operations, strategic leadership, and project management. His career spans complex assignments in the Bangladesh Army, United Nations peacekeeping missions, and the private sector, where he has consistently demonstrated expertise in human resources, logistics, administration, and large-scale project execution. As Director of Administration at March Robotics & IT Solution Ltd., he oversees tender processes, stakeholder engagement, and organizational coordination to drive project success. Previously, he served as a Company Commander in the Bangladesh Army, where he led HR and operational functions for 250 personnel, managed budgets, and delivered engineering support for brigade-level operations. His international roles include service as Contingent Operations Officer in South Sudan with the UNMISS and as Base Engineer in Mali under MINUSMA, where he managed deployments, designed camps, implemented security systems, and coordinated with multinational stakeholders. Khalid’s portfolio also includes overseeing infrastructure development projects, such as leading a 15-kilometer embankment construction project, ensuring compliance, quality, and sustainability. Recognized for his ability to thrive in challenging environments, he brings a robust combination of strategic planning, risk management, and engineering acumen. Currently transitioning to the private sector, Khalid is applying his leadership and technical expertise to deliver modern business and technology solutions with a focus on efficiency, resilience, and impact.',
+//       expertise: [
+//   'Military Operations & Strategic Leadership',
+//   'Project & Program Management',
+//   'Human Resources & Administration',
+//   'Logistics & Supply Chain Management',
+//   'Stakeholder Engagement & Coordination',
+//   'Combat & Peacekeeping Engineering',
+//   'International Operations (UN Missions)',
+//   'Security Planning & Risk Management',
+//   'Budgeting, Financial Audits & Resource Allocation',
+//   'Infrastructure Development & Construction Supervision',
+//   'Change Management & Process Improvement',
+//   'Team Leadership & Capacity Building'
+// ],
+//       image: 'https://i.ibb.co.com/0VmDp0Ms/M-M-Khalid-Murshed.jpg',
+//       social: {
+//         linkedin: '#',
+//         twitter: '#',
+//         email: 'emily@versabuild.com'
+//       },
+//       stats: { projects: 95, clients: 80 },
+//       icon: <Psychology sx={{ fontSize: 24 }} />
+//     },
 
     {
       name: 'MD Saifur Rahman',
@@ -289,7 +289,8 @@ const LeadershipTeam = () => {
                         }}
                       />
                       
-                      {/* Stats overlay */}
+                       {/* Stats overlay */}
+                       {/*
                       <Box
                         sx={{
                           position: 'absolute',
@@ -333,7 +334,7 @@ const LeadershipTeam = () => {
                             Clients
                           </Typography>
                         </Box>
-                      </Box>
+                      </Box> */}
                     </Box>
                     
                     <CardContent sx={{ p: 3, position: 'relative' }}>
@@ -527,7 +528,7 @@ const LeadershipTeam = () => {
                   justifyContent: 'space-around',
                   textAlign: 'center'
                 }}>
-                  <Box>
+                  {/* <Box>
                     <Typography variant="h4" fontWeight="bold" color="primary">
                       {selectedMember.stats.projects}+
                     </Typography>
@@ -542,7 +543,7 @@ const LeadershipTeam = () => {
                     <Typography variant="body2">
                       Clients
                     </Typography>
-                  </Box>
+                  </Box> */}
                 </Box>
               </Box>
             </DialogContent>
