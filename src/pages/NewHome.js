@@ -1,5 +1,6 @@
 import { Box} from '@mui/material';
 import { styled } from '@mui/material/styles';
+import video1 from '../video/homeVideo.mp4';
 
 const HeroContainer = styled(Box)(({ theme }) => ({
   position: 'relative',
@@ -70,7 +71,7 @@ const NewHome = () => {
   const videoUrl = `https://drive.google.com/uc?export=view&id=${googleDriveVideoId}`;
   
   // Alternative direct link format (sometimes more reliable)
-  const directVideoUrl = `https://docs.google.com/uc?export=download&id=${googleDriveVideoId}`;
+//   const directVideoUrl = `https://docs.google.com/uc?export=download&id=${googleDriveVideoId}`;
 
   return (
     <HeroContainer>
@@ -93,7 +94,7 @@ const NewHome = () => {
           preload="auto" // Ensures video loads as soon as possible
         >
           {/* Try the direct link first, fallback to embed link */}
-          <source src={directVideoUrl} type="video/mp4" />
+          <source src={video1} type="video/mp4" />
           <source src={videoUrl} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
