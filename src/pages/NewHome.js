@@ -2,7 +2,6 @@ import React from 'react';
 import { Box, Typography, Container, Paper, Button } from '@mui/material';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import { styled } from '@mui/material/styles';
-import Video1 from '../video/homeVideo.mp4';
 
 const HeroContainer = styled(Box)(({ theme }) => ({
   position: 'relative',
@@ -72,18 +71,17 @@ const ContentContainer = styled(Container)(({ theme }) => ({
 }));
 
 const NewHome = () => {
-  // Google Drive video embedding instructions:
-  // 1. Upload your video to Google Drive
-  // 2. Right-click on the video file and select "Get shareable link"
-  // 3. Change the sharing settings to "Anyone with the link can view"
-  // 4. Extract the file ID from the URL (between /d/ and /view)
-  // 5. Use this format: https://drive.google.com/uc?export=download&id=YOUR_FILE_ID
+  // Your Google Drive video link: https://drive.google.com/file/d/1yBHblcxpwKr7rOO23CV0ViWEC6TtW5lN/view?usp=drive_link
+  // Extracted ID: 1yBHblcxpwKr7rOO23CV0ViWEC6TtW5lN
+  // IMPORTANT: Make sure the video sharing settings are set to "Anyone with the link can view"
   
-  const googleDriveVideoId = '1W2n4lV0mYVpTmZKjZfFzQ7qQJ3X9bYyK'; // Replace with your actual video ID
-  const videoUrl = `https://drive.google.com/uc?export=download&id=${googleDriveVideoId}`;
+  const googleDriveVideoId = '1yBHblcxpwKr7rOO23CV0ViWEC6TtW5lN';
   
-  // Alternative: If you want to use a sample video for testing
-  const sampleVideoUrl = 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4';
+  // Correct Google Drive embed URL
+  const videoUrl = `https://drive.google.com/uc?export=view&id=${googleDriveVideoId}`;
+  
+  // Alternative direct link format (sometimes more reliable)
+  const directVideoUrl = `https://docs.google.com/uc?export=download&id=${googleDriveVideoId}`;
 
   return (
     <HeroContainer>
@@ -92,22 +90,26 @@ const NewHome = () => {
       
       {/* Video Overlay */}
       <VideoContainer>
-  <video
-    autoPlay
-    muted
-    loop
-    playsInline
-    style={{
-      width: '100%',
-      height: '100%',
-      objectFit: 'scale-down', // This will show full video and scale down if needed
-    }}
-    controls={false}
-  >
-    <source src={Video1} type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-</VideoContainer>
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'scale-down',
+          }}
+          controls={false}
+          preload="auto" // Ensures video loads as soon as possible
+        >
+          {/* Try the direct link first, fallback to embed link */}
+          <source src={directVideoUrl} type="video/mp4" />
+          <source src={videoUrl} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </VideoContainer>
+      
       
     </HeroContainer>
   );
