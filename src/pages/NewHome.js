@@ -1,6 +1,4 @@
-import React from 'react';
-import { Box, Typography, Container, Paper, Button } from '@mui/material';
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import { Box} from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 const HeroContainer = styled(Box)(({ theme }) => ({
@@ -60,15 +58,6 @@ const VideoContainer = styled(Box)(({ theme }) => ({
   },
 }));
 
-const ContentContainer = styled(Container)(({ theme }) => ({
-  position: 'relative',
-  zIndex: 4,
-  textAlign: 'center',
-  padding: theme.spacing(4),
-  backgroundColor: 'rgba(0, 0, 0, 0.6)',
-  borderRadius: theme.shape.borderRadius,
-  marginBottom: theme.spacing(8),
-}));
 
 const NewHome = () => {
   // Your Google Drive video link: https://drive.google.com/file/d/1yBHblcxpwKr7rOO23CV0ViWEC6TtW5lN/view?usp=drive_link
