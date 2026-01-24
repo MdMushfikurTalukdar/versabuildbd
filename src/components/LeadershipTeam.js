@@ -9,7 +9,6 @@ import {
   CardContent,
   alpha,
   useTheme,
-  useMediaQuery,
   Fade,
   Chip,
   IconButton,
@@ -32,8 +31,8 @@ import {
 
 const LeadershipTeam = () => {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  const isTablet = useMediaQuery(theme.breakpoints.down('md'));
+  // const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  // const isTablet = useMediaQuery(theme.breakpoints.down('md'));
   const [isVisible, setIsVisible] = useState(false);
   const [selectedMember, setSelectedMember] = useState(null);
   const [openDialog, setOpenDialog] = useState(false);
@@ -61,7 +60,6 @@ const LeadershipTeam = () => {
   'Team Building & Professional Development'
 ],
       image: 'https://i.ibb.co.com/x8zpRQJj/shahrish-shuvo.jpg',
-      //image: 'https://i.ibb.co.com/YB9NBLrK/Whats-App-Image-2025-09-18-at-00-34-17-5b5c5513.jpg',
       social: {
         linkedin: 'https://www.linkedin.com/in/m-m-khalid-murshed-a51953120/?originalSubdomain=bd',
         twitter: '#',
@@ -151,11 +149,11 @@ const LeadershipTeam = () => {
   };
 
   // Calculate responsive grid values
-  const getGridSize = () => {
-    if (isMobile) return 12;
-    if (isTablet) return 6;
-    return 4;
-  };
+  // const getGridSize = () => {
+  //   if (isMobile) return 12;
+  //   if (isTablet) return 6;
+  //   return 4;
+  // };
 
   return (
     <>
