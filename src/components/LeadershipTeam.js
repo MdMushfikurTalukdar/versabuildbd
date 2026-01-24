@@ -28,7 +28,6 @@ import {
     BusinessCenter,
     DesignServices,
     Engineering,
-    Psychology
 } from '@mui/icons-material';
 
 const LeadershipTeam = () => {
