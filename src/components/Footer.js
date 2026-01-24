@@ -11,9 +11,7 @@ import {
   Button,
   alpha,
   useTheme,
-  Paper,
-  InputAdornment,
-  Chip
+  InputAdornment
 } from '@mui/material';
 import {
   Facebook,
