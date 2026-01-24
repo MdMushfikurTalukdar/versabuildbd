@@ -4,7 +4,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './pages/Home';
+// import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Projects from './pages/Projects';
@@ -44,7 +44,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<NewHome />} />
-          <Route path="/old" element={<Home />} />
+          {/* <Route path="/old" element={<Home />} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/projects" element={<Projects />} />
