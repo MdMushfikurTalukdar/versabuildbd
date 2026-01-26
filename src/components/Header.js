@@ -104,12 +104,20 @@ const Header = () => {
     setMobileOpen(!mobileOpen);
   };
 
+  // const menuItems = [
+  //   { text: 'Home', path: '/', icon: <HomeIcon /> },
+  //   { text: 'About', path: '/about', icon: <InfoIcon /> },
+  //   { text: 'Services', path: '/services', icon: <ConstructionIcon /> },
+  //   { text: 'Projects', path: '/projects', icon: <ProjectsIcon /> },
+  //   { text: 'Contact', path: '/contact', icon: <ContactIcon /> },
+  // ];
+
   const menuItems = [
     { text: 'Home', path: '/', icon: <HomeIcon /> },
-    { text: 'About', path: '/about', icon: <InfoIcon /> },
-    { text: 'Services', path: '/services', icon: <ConstructionIcon /> },
-    { text: 'Projects', path: '/projects', icon: <ProjectsIcon /> },
-    { text: 'Contact', path: '/contact', icon: <ContactIcon /> },
+    { text: 'About', path: '/', icon: <InfoIcon /> },
+    { text: 'Services', path: '/', icon: <ConstructionIcon /> },
+    { text: 'Projects', path: '/', icon: <ProjectsIcon /> },
+    { text: 'Contact', path: '/', icon: <ContactIcon /> },
   ];
 
   // Convert Google Drive link to direct image URL

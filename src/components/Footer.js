@@ -85,11 +85,11 @@ const Footer = () => {
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
               <Construction sx={{ fontSize: 40, color: theme.palette.primary.main, mr: 2 }} />
               <Typography variant="h5" fontWeight="bold">
-                VersaBuild Construction
+                VersaBuild BD 
               </Typography>
             </Box>
             <Typography variant="body2" sx={{ mb: 3, opacity: 0.8, lineHeight: 1.7 }}>
-              Building dreams into reality with quality construction and exceptional service since 1995. 
+              Building dreams into reality with quality construction and exceptional service since 2025. 
               We specialize in residential, commercial, and renovation projects with a commitment to excellence.
             </Typography>
             
@@ -173,7 +173,7 @@ const Footer = () => {
                     Email Address
                   </Typography>
                   <Typography variant="body2" sx={{ opacity: 0.8 }}>
-                    info@versabuildbd.com
+                    versabuildbd@gmail.com
                   </Typography>
                 </Box>
               </Box>
